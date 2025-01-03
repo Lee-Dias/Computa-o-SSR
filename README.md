@@ -38,8 +38,13 @@ metodo- Frag: Implementa o SSR, incluindo ray marching, cálculo de reflexos e m
 
 
 (1) - https://www.youtube.com/watch?v=thsWwbFriY8&ab_channel=GlassHandStudios
+
 (2) - https://www.youtube.com/watch?v=a0OQvWAPeuo&ab_channel=Brackeys
+
 (3) - https://www.youtube.com/watch?v=lhELeLnynI8&t=617s&ab_channel=Brackeys
+
 (4) - https://www.reddit.com/r/gamedev/comments/52lawa/what_exactly_are_screenspace_reflections/
+
 (5) - https://www.youtube.com/watch?v=eUYAj0TmHvM&ab_channel=TechnicallyHarry
+
 (6) - https://github.com/JoshuaLim007/Unity-ScreenSpaceReflections-URP/blob/main/Shaders/ssr_shader.shader
