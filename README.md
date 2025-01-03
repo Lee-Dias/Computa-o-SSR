@@ -20,18 +20,31 @@ tal como dynamic step para o step do raymarching ser diferente consoante o taman
 não entendi tudo so de olhar mas do que olhei dele tentei em algumas coisas que vi que era possível implementar no meu código.
 
 Técnicas usadas:
-Ray Marching: Técnica para simular a interação do raio com a superfície da cena, e usa depth buffer para buscar interseções .
+
+Ray Marching: Técnica para simular a interação do raio com a superfície da cena, e usa depth buffer para buscar interseções.
+
 Depth Buffer: Usa-se para obter a profundidade dos pontos de reflexão e mapear as posições 3D para 2D.
+
 Normal Buffer: Da nos a direção do raio refletido a partir do ponto de reflexão.
+
 Color Buffer: Usa-se para obter as cores refletidas da cena ao consultar o valor de pixels específicos.
 
+
+
 As Tecnica usadas mas em codigo  código:
+
 metodo- vert: Calcula os raios de perspetiva da câmara para cada vértice,para depois ser usado no ray marching.
+
 metodo- ComputeViewSpacePosition: Obtém a posição no espaço da câmara a partir das coordenadas UV e do depth buffer.
+
 metodo- ScreenToWorldPos: Converte uma posição no espaço da câmara para o espaço do mundo.
+
 metodo- WorldToScreenPos: Converte uma posição do espaço do mundo para coordenadas UV na tela.
+
 metodo- Vignette: Aplica um efeito de vinheta para escurecer os cantos da imagem.
+
 metodo- hash33: Faz um ruido semi aleatorio para a variação dos reflexos, para simular imperfeições.
+
 metodo- Frag: Implementa o SSR, incluindo ray marching, cálculo de reflexos e mistura da cor final.
 
 
